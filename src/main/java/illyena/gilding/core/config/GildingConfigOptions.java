@@ -14,10 +14,10 @@ public class GildingConfigOptions {
     public static final IntegerConfigOption IN_GAME_MENU_CONFIG_BUTTON_ROW = new IntegerConfigOption(SUPER_MOD_ID, "gm_config_button_row", 3, 0, 5, ConfigOption.AccessType.CLIENT);
     public static final IntegerConfigOption IN_GAME_MENU_CONFIG_BUTTON_OFFSET = new IntegerConfigOption(SUPER_MOD_ID, "gm_config_button_offset", 4, -100, 100, ConfigOption.AccessType.CLIENT);
 
-    public static final BooleanConfigOption MODDED_WORLD_GEN_BUTTON_SIZE = new BooleanConfigOption(SUPER_MOD_ID, "mwgButtonSize", false, ConfigOption.AccessType.BOTH,
+    public static final BooleanConfigOption MODDED_WORLD_GEN_BUTTON_SIZE = new BooleanConfigOption(SUPER_MOD_ID, "mwg_button_size", false, ConfigOption.AccessType.BOTH,
             List.of(translationKeyOf("tooltip", "mwg_button_config").asOrderedText()));
-    public static final IntegerConfigOption MODDED_WORLD_GEN_BUTTON_ROW = new IntegerConfigOption(SUPER_MOD_ID, "mwgButtonRow", 4, 1, 4, ConfigOption.AccessType.BOTH);
-    public static final IntegerConfigOption MODDED_WORLD_GEN_BUTTON_OFFSET= new IntegerConfigOption(SUPER_MOD_ID, "mwgButtonOffset", 5, -100, 100, ConfigOption.AccessType.BOTH);
+    public static final IntegerConfigOption MODDED_WORLD_GEN_BUTTON_ROW = new IntegerConfigOption(SUPER_MOD_ID, "mwg_button_row", 4, 1, 4, ConfigOption.AccessType.BOTH);
+    public static final IntegerConfigOption MODDED_WORLD_GEN_BUTTON_OFFSET= new IntegerConfigOption(SUPER_MOD_ID, "mwg_button_offset", 5, -100, 100, ConfigOption.AccessType.BOTH);
 
     public static void registerConfig() { }
 
